@@ -1,0 +1,46 @@
+:root {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+#text {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    width: 100vb;
+    height: 150px;
+    resize: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+#submit {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+#submit:active {
+    transform: translate(0em, 0.2em);
+}
+
+div {
+    margin-bottom: 8px; /* Space between each div */
+}
